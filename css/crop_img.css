@@ -1,0 +1,12 @@
+#crop_canvas
+{
+	height: 300px;
+	width: 300px;
+	background-color: #ffffff;
+	cursor: default;
+	display: none;
+}
+.crop_btn
+{
+	display: none;
+}

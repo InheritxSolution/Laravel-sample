@@ -1,0 +1,2 @@
+<a href="{{ (!App::isLocale('de')) ? route('app.setLocal', ['lang' => 'de']) : '#' }}"><span class="flag-icon flag-icon-de lang_flag {{ App::isLocale('de') ? 'lang_flag_active' : '' }}" title="{{ trans('string.german') }}"></span></a>
+<a href="{{ (!App::isLocale('en')) ? route('app.setLocal', ['lang' => 'en']) : '#' }}"><span class="flag-icon flag-icon-us lang_flag {{ App::isLocale('en') ? 'lang_flag_active' : '' }}" title="{{ trans('string.english') }}"></span></a>
